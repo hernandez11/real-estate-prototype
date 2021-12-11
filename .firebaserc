@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "af-web-dev-real-estate",
+    "build": "af-web-dev-real-estate"
+  },
+  "targets": {}
+}
