@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styling/Home.css';
 import styled from 'styled-components';
 import Stat__Comp from '../Components/Stat__Comp.js';
-
+import Footer from '../Components/Footer.js';
 function Home() {
 
 const Line = styled.hr`
@@ -49,21 +49,24 @@ const Line = styled.hr`
 
         <Stat__Comp />
 
-        <div>
+        <div className='values__container'>
+            {/* <span> */}
             <img className='home__values__img' src='./Assets/home__asset__1.png' alt='' />
-
-            <div classname='values__text__wrapper'>
+            {/* </span> */}
+            <div className='text__wrapper'>
                 <p className='small'>OUR VALUE</p>
                 <h2>Value we bring you</h2>
                 <p>We area always ready to help by providing the best service for you. 
                    We believe a good place to live can make your life better.</p>
 
-                   <span>
-                       
+                   <span className='Perk_container'>
+                       <p className='perk__item'>Best interest rates on the market</p>
+                       <p className='perk__item'>Best price on the market</p>
+                       <p className='perk__item'>Security of your data</p>
                    </span>
             </div >
         </div>
-
+        <Footer />
         </>
     )
 }

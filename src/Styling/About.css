@@ -1,0 +1,51 @@
+.hero__top{
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    /* padding: 0 10%; */
+    font-weight: 300;
+    line-height: 91px;
+}
+
+.hero__top>h1{
+    font-size: 75px;
+    margin-left: 3%;
+}
+
+.hero__text__wrapper{
+    width: 30%;
+    margin: 3% 3% 2% 5%;
+    line-height: 25px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.about__hero__img{
+    width: 100%;
+}
+
+.testimonials{
+    padding: 5% 0;
+}
+
+.about__gallery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery__img{
+    /* ADJST IMAGE SIZING TO FIT WHEN HOVERED OVER AND NO OVERFLOW VISIBLE */
+    border-radius: 10%;
+    image-resolution: 1080;
+    background: #ebebeb;
+    box-shadow:  20px 20px 60px #c8c8c8, -20px -20px 60px #ffffff;
+    transition:transform 0.5s ease;
+}
+
+.gallery__img:hover{
+    cursor: pointer;
+    -webkit-transform:scale(1.45);
+    transform:scale(1.45);
+    box-shadow:  none;
+}
