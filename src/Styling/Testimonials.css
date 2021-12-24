@@ -1,0 +1,42 @@
+.testimonials{
+    width: 100%;
+    color: #fff;
+    padding: 1px 0;
+    margin-top: 5%;
+    background: linear-gradient(180deg, #2F2F2F 34.9%, #000000 100%);
+}
+
+.testimonials__container{
+    width: 55%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials__container>h1{
+    margin-bottom: 2em;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.quotes__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials__wrapper{
+    position: relative;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.quote{
+    padding: 25px 0;
+    min-height: 60px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}

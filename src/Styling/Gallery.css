@@ -1,0 +1,26 @@
+.gallery{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__imgs{
+    display: flex;
+}
+
+.main__img{
+    width: 55vw;
+    height: 70vh;
+    margin: 0px 15px 15px 15px;
+    /* background-color: firebrick; */
+    /* background-image: url('/src/Assets/gallery__hero__main.png'); */
+    background-repeat: round;
+    object-fit: cover;
+    object-position: center;
+}
+
+.album__assets__container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styling/About.css';
 import Footer from '../Components/Footer.js';
+import Testimonials from '../Components/Testimonials.js';
 
 function About() {
     return (
@@ -12,14 +13,11 @@ function About() {
             </span>
         </div>
         <img className='about__hero__img' src='./Assets/about__hero.png' alt=''/>
-        <div className='testimonials'>
-
-        </div>
+        <Testimonials />
         <div className='about__gallery'>
-            {/* UPLOAD ORIGINAL IMG FILES FOR HD RENDERING */}
-            <img className='gallery__img' src='./Assets/About__gallery__asset00.png' alt=''/>
-            <img className='gallery__img' src='./Assets/About__gallery__asset01.png' alt=''/>
-            <img className='gallery__img' src='./Assets/About__gallery__asset02.png' alt=''/>
+            <img className='gallery__img' src='./Assets/About__gallery__asset00.jpg' alt=''/>
+            <img className='gallery__img' src='./Assets/About__gallery__asset01.jpg' alt=''/>
+            <img className='gallery__img' src='./Assets/About__gallery__asset02.jpg' alt=''/>
         </div>
         <Footer />
         </>

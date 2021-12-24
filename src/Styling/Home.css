@@ -41,7 +41,6 @@
     line-height: 91px;
 }
 
-
 .contact__button {
     position: relative;
     display: inline-block;
@@ -98,7 +97,7 @@
 
 .text__wrapper{
     margin: auto 0;
-    width: 40%;
+    width: 30%;
 }
 
 .text__wrapper>h2{
