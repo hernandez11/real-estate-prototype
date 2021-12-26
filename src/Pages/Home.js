@@ -29,7 +29,7 @@ const Line = styled.hr`
                 <div className='content__container'>
                     <h1 className='hero__title'>HOME<br/>BUYING MADE<br/>EASY</h1>
                     <p>we are a real estate agency that will help you find and choose your modern and minimalistic dream home.</p>
-                    <button className='contact__button'>Contact Us</button>
+                    <button onClick={() => window.location.replace("/#contact__section")} className='contact__button'>Contact Us</button>
 
                     <div className='home__stage__planner'>
                         <span className='stage__row'> <h5>STAGE</h5> <p>Planned for 2022</p> </span>
@@ -46,13 +46,11 @@ const Line = styled.hr`
                 </div>
             </div>
         </div>
-
+s
         <Stat__Comp />
 
         <div className='values__container'>
-            {/* <span> */}
             <img className='home__values__img' src='./Assets/home__asset__1.png' alt='' />
-            {/* </span> */}
             <div className='text__wrapper'>
                 <p className='small'>OUR VALUE</p>
                 <h2>Value we bring you</h2>
@@ -60,13 +58,15 @@ const Line = styled.hr`
                    We believe a good place to live can make your life better.</p>
 
                    <span className='Perk_container'>
-                       <p className='perk__item'>Best interest rates on the market</p>
-                       <p className='perk__item'>Best price on the market</p>
+                       <p className='perk__item'>Lowest interest rates on the market</p>
+                       <p className='perk__item'>Best price on the market guaranteed</p>
                        <p className='perk__item'>Security of your data</p>
                    </span>
             </div >
         </div>
-        <Footer />
+        <span id="contact__section">
+            <Footer />
+        </span>
         </>
     )
 }

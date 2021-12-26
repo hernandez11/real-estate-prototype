@@ -23,8 +23,8 @@ function Album() {
     
         &::before {
             content: ' ';
-            height: 6px;
-            width: 6px;
+            height: 10px;
+            width: 10px;
             background-color: #d4d4d4;
             border-radius: 50%;
             transition: background-color 0.3s ease;

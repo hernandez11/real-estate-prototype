@@ -42,3 +42,36 @@
     -webkit-transform:scale(1.45);
     transform:scale(1.45);
 }
+
+@media screen and (max-width: 768px) {
+    .hero__top{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .hero__top>h1{
+        font-size: 70px;
+        margin-left: 3%;
+    }
+    .hero__text__wrapper{
+        width: 75%;
+    }
+    .about__gallery{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .gallery__img{
+        width:65%;
+        margin: 5%;
+    }
+    .gallery__img:hover{
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+@media screen and (max-width: 468px) {
+    .hero__top>h1{
+        font-size: 60px;
+    }
+}
+
+

@@ -14,7 +14,7 @@ function Gallery() {
             </div>
             <div className='gallery__imgs'>
                 <img className='main__img' src='./Assets/gallery__hero__main.jpg' alt='' />
-                <div className='album__assets__container'><Album /></div>
+                <div className='album__assets__container'> <Album /> </div>
             </div>
         </div>
     )

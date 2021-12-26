@@ -2,13 +2,14 @@ import React from 'react';
 import '../Styling/Footer.css';
 
 function Footer() {
+
     return (
         <div className='footer'>
             <div className='footer__start'>
                 <p>Say hi to the team</p>
                 <h1>Contact Us</h1>
                 <span className='form__container'>
-                    <p>Feel free to contact u and we will get back to you as soon as we can.</p>
+                    <p>Feel free to contact us and we will get back to you as soon as we can.</p>
                     <form className='form__wrapper'>
                         <label>Name</label>
                         <input className='form__item' type='text' name='name' required/>
@@ -16,9 +17,11 @@ function Footer() {
                         <input className='form__item' type='text' name='name' required/>
                         <label>Tell us all about it</label>
                         <input className='form__item' type='text' name='name' required/>
+                        
+                        <button className='form__btn'>Send</button>
+                        
                     </form>
 
-                    <button>Send</button>
                 </span>
             </div>
             <div className='footer__end'>
@@ -32,9 +35,9 @@ function Footer() {
                 </div>
                 <div className='end__container'>
                     <p className='end__title'>Address</p>
-                    <p>Lorem Ipsum</p>
-                    <p>Lorem Ipsum</p>
-                    <p>Lorem Ipsum</p>
+                    <p>783 Collins Drive</p>
+                    <p>Bilzen, USA</p>
+                    <p>89936-0586</p>
                 </div>
                 <div className='end__container'>
                     <p className='end__title'>Support</p>
