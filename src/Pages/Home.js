@@ -60,7 +60,7 @@ s
                    <span className='Perk_container'>
                        <p className='perk__item'>Lowest interest rates on the market</p>
                        <p className='perk__item'>Best price on the market guaranteed</p>
-                       <p className='perk__item'>Security of your data</p>
+                       <p className='perk__item'>Tax advantages avilable</p>
                    </span>
             </div >
         </div>

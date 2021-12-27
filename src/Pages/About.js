@@ -9,7 +9,7 @@ function About() {
         <div className='hero__top'>
             <h1>ABOUT US</h1>
             <span className='hero__text__wrapper'>
-                <p>We are a real estate agency that will help you find and choose your modern and minimalistic dream home. We are a real estate agency that will help you find and choose your modern and minimalistic dream home</p>
+                <p>We are a real estate agency that will help you find and choose your modern and minimalistic dream home. We provide a complete service for the sale, purchase or rental of real estate.</p>
             </span>
         </div>
         <img className='about__hero__img' src='./Assets/about__hero.png' alt=''/>
