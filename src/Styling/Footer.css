@@ -104,6 +104,9 @@ input[type=text]{
     }
 }
 @media screen and (max-width: 468px) {
+    .footer__start>h1{
+        margin-left: 10%;
+    }
     .form__container{
         width: 65%;
     }

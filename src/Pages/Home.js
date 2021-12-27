@@ -38,7 +38,7 @@ const Line = styled.hr`
                         <Line />
                         <span className='stage__row'> <h5>002</h5> <p>Schedule a tour</p></span>
                         <Line />
-                        <span className='stage__row'> <h5>003</h5> <p>Obtain aproval & submit offer</p></span>
+                        <span className='stage__row'> <h5>003</h5> <p>Obtain approval & submit offer</p></span>
                         <Line />
                         <span className='stage__row'> <h5>004</h5> <p>Enjoy your new home</p></span>
                         <Line />
@@ -46,7 +46,7 @@ const Line = styled.hr`
                 </div>
             </div>
         </div>
-s
+
         <Stat__Comp />
 
         <div className='values__container'>
@@ -60,7 +60,8 @@ s
                    <span className='Perk_container'>
                        <p className='perk__item'>Lowest interest rates on the market</p>
                        <p className='perk__item'>Best price on the market guaranteed</p>
-                       <p className='perk__item'>Tax advantages avilable</p>
+                       <p className='perk__item'>Easy payment processing</p>
+                       <p className='perk__item'>Tax advantages available</p>
                    </span>
             </div >
         </div>
